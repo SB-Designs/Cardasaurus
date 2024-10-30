@@ -36,8 +36,8 @@ p {
 
 /* Button Style */
 .cta-button, .back-button {
-  background-color: #28a745;
-  color: black;
+  background-color: white;
+  color: #e8d3ff;
   padding: 12px 24px;
   font-size: 1em;
   text-decoration: none;
