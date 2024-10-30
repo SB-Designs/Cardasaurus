@@ -36,7 +36,7 @@ p {
 
 /* Button Style */
 .cta-button, .back-button {
-  background-color: white;
+  background-color: black;
   color: #e8d3ff;
   padding: 12px 24px;
   font-size: 1em;
@@ -48,7 +48,7 @@ p {
 }
 
 .cta-button:hover, .back-button:hover {
-  background-color: #218838;
+  background-color: #ac9bbf;
 }
 
 /* Form Styles */
@@ -82,7 +82,7 @@ input, textarea {
 
 /* Submit Button */
 button {
-  background-color: white;
+  background-color: black;
   color: #e8d3ff;
   padding: 15px;
   border: none;
@@ -94,7 +94,7 @@ button {
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #ac9bbf;
 }
 
 /* Responsive Design */
