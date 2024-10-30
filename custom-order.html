@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardasaurus - Custom Order</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Cardasaurus Logo" class="logo">
+    <h1>Create Your Custom Card</h1>
+    <p>Fill in the details below to create a one-of-a-kind card.</p>
+  </header>
+  <main>
+    <form name="custom-card-order" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="custom-card-order">
+      
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="card-date">Card Date:</label>
+      <input type="date" id="card-date" name="card-date" required>
+      
+      <label for="front-description">Front Cover Description:</label>
+      <textarea id="front-description" name="front-description" rows="3" required></textarea>
+      
+      <label for="inside-description">Inside Description:</label>
+      <textarea id="inside-description" name="inside-description" rows="3" required></textarea>
+      
+      <label for="message">Card Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Submit Custom Order</button>
+    </form>
+    <a href="index.html" class="back-button">Back to Homepage</a>
+  </main>
+</body>
+</html>
