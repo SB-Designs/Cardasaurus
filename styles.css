@@ -6,7 +6,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #e8d3ff;
+  color: white;
 }
 
 header {
@@ -15,23 +16,26 @@ header {
 }
 
 .logo {
-  width: 120px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
   margin-bottom: 10px;
 }
 
+h1, p, label {
+  color: white;
+}
+
 h1 {
-  color: #333;
   font-size: 2em;
 }
 
 p {
-  color: #555;
   font-size: 1.1em;
 }
 
 /* Button Style */
-.cta-button {
+.cta-button, .back-button {
   background-color: #28a745;
   color: white;
   padding: 12px 24px;
@@ -40,31 +44,29 @@ p {
   border-radius: 6px;
   margin-top: 20px;
   display: inline-block;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
-.cta-button:hover {
+.cta-button:hover, .back-button:hover {
   background-color: #218838;
 }
 
-/* Form Container Styles */
-main {
-  width: 100%;
-  max-width: 800px;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
+/* Form Styles */
 form {
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-/* Form Field Styles */
+label, input, textarea, button {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
 label {
   margin-top: 15px;
   font-weight: bold;
-  color: #333;
   font-size: 1.1em;
 }
 
@@ -93,23 +95,6 @@ button {
 
 button:hover {
   background-color: #218838;
-}
-
-/* Back to Homepage Button */
-.back-button {
-  display: inline-block;
-  background-color: #007bff;
-  color: white;
-  padding: 12px 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 6px;
-  margin-top: 15px;
-  font-size: 1em;
-}
-
-.back-button:hover {
-  background-color: #0056b3;
 }
 
 /* Responsive Design */
