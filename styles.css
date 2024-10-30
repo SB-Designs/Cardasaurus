@@ -72,7 +72,7 @@ label {
 
 input, textarea {
   padding: 14px;
-  font-size: 1em;
+  font-size: 1.2em; /* Increased font size */
   border: 1px solid #ccc;
   border-radius: 6px;
   margin-top: 8px;
@@ -108,6 +108,6 @@ button:hover {
   }
 
   input, textarea {
-    font-size: 0.9em;
+    font-size: 1.1em; /* Maintain the increased font size */
   }
 }
