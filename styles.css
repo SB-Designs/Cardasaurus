@@ -76,7 +76,7 @@ input, textarea {
   border: 1px solid #ccc;
   border-radius: 6px;
   margin-top: 8px;
-  width: 100%;
+  width: 100%; /* Make the form fields fill the page width */
   box-sizing: border-box;
 }
 
@@ -109,5 +109,6 @@ button:hover {
 
   input, textarea {
     font-size: 1.1em; /* Maintain the increased font size */
+    width: 100%; /* Make the form fields fill the page width */
   }
 }
